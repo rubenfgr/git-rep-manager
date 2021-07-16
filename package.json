@@ -1,0 +1,48 @@
+{
+  "name": "git-rep-manager",
+  "version": "1.0.0",
+  "description": "Git repositories control over beautiful terminal interface",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc & node dist/app.js",
+    "cli": "NODE_PATH=. node cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "grm": "cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rubenfgr/git-rep-manager.git"
+  },
+  "keywords": [
+    "git",
+    "repository",
+    "repo",
+    "manager",
+    "control",
+    "organization"
+  ],
+  "author": "Rubén Francisco Gazquez Rosales",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rubenfgr/git-rep-manager/issues"
+  },
+  "homepage": "https://github.com/rubenfgr/git-rep-manager#readme",
+  "devDependencies": {
+    "@types/colors": "^1.2.1",
+    "@types/inquirer": "^7.3.1",
+    "@typescript-eslint/eslint-plugin": "^4.26.0",
+    "@typescript-eslint/parser": "^4.26.0",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.0",
+    "typescript": "^4.3.2"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "inquirer": "^8.1.0"
+  }
+}
